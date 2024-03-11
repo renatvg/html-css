@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model </title>
+    <style>
+        h1{ 
+            background-color: azure;
+            height: 300px;
+            width: 300px;
+            font-size:50px;
+            border: 10px solid black;
+            /*nessa ordem: largura, tipo, cor*/ 
+            
+            
+            padding: 10px;
+
+           /* se colocar só 1 valor, se colocar 2 valores, ele agrega ao de cima e baixo o 1°, e direita e esquerrda no 2°; se colocar 4, ele agrega todos,  na seguinte ordem: top, right, bottom, left (sentido horarior partindo de cima)
+
+           isso vale para todos (margin, padding, border, outline e etc)
+           */ 
+
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+
+
+            /* margin: auto; centraliza*/
+        }
+
+        a{ 
+            border: 2px solid red;
+            text-decoration: dotted;
+            padding: 2px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Box Level</h1>
+    <p>Prragrrafos são exemplos de box level, mas os <a href="#"> links são inline</a></p>
+</body>
+</html>

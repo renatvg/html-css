@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {  
+    /* 
+    Medidas Absolutas:
+    cm, mm, in, px, pt, pc
+
+    Medidas Relativas: 
+    em, ex, rem, vw, vh, % 
+
+    Recomendadas: 
+    px e em
+
+    16px geralmente é = 1em
+    */
+
+    /* shorthand font
+    font-style, font-weight, font-size, font-family
+    ;*/
+
+    font: lighter 2em Arial;
+}

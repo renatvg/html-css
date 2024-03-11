@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com links</title>
+</head>
+<body>
+    <h1>Usando links!</h1>
+    <p>Existe como especificar as abreviações, como essa ao passar o mouse em cima: <abbr title="Counter Strike - Global Offensive">CSGO</abbr>. </p>
+    <p>Mas também tem como fazer a mesma coisa com links, como este, que ao clicar, te mandará diretamente à pagina do jogo na steam: <a href="https://store.steampowered.com/app/730/CounterStrike_2/?l=portuguese">CSGO</a> </p>
+    <p>Contudo, dessa maneira ele fecha o site, e vai direto para o site de terceiros. Para resolver isso, basta usar o mesmo comando com uma pequena alteração: <a href="https://store.steampowered.com/app/730/CounterStrike_2/?l=portuguese" target="_blank" rel="external">CSGO</a></p><!-- A mudança foi o target="_blank"" -->
+    <p>E quando é um anuncio pago, ou algo que n é totalmente relacionado a página, a gente uma o comando rel="nofollow" depois do target _blank, em pratica não há difença, contudo, para os mecanismos de busca, como o google, faz sim. Exemplo: <a href="https://www.google.com/webhp?hl=pt-BR&sa=X&ved=0ahUKEwiUjZba-byEAxVcP7kGHWjoCgAQPAgJ" target="_black" rel="nofollow">google</a></p>
+    <h2>Usando links Internos: </h2>
+    <p>Aqui temos uma segunda pagina com algumas besteiras <a href="pag002.html" rel="next">CS2</a></p><!-- target existe o _blank (nova aba) e _self (mesma aba, é o padrão)-->
+    <p>nesse <a href="oii/oiii.html">link</a> está numa pasta difente</p>
+    <h2>como fazer download: neste <a href="download/diaxizlindo.html">site</a></h2>
+    <p><a href="download/2.pdf" download="2.pdf">download</a></p>
+    
+</body>
+</html>

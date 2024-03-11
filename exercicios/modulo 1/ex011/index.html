@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens cabulosas </title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Imagens que se adaptam conforme o tamanho da tela: 
+
+    </p>
+    <picture> 
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="iamgem G">
+        <!-- Manter tudo na ordem do menor para o maior (max-width) ou do maior para o menor(min-width)-->
+    </picture>
+
+    <h1>Eai pai.... tu ta onde?</h1>
+    <p>Escuta ai paizin...  </p>
+    <audio src="midia/eaipai.mp3" controls> </audio> 
+    <p>Segunda maneira</p>
+    <audio preload="auto" autoplay controls>
+        <source src="midia/eaipai.mp3" type="audio/mpeg">
+    </audio>
+    
+    <h1>Tem video também paih</h1>
+    <p>Basta clicar nesse <a href="video.html">link</a>.</p>
+
+</body>
+</html>
