@@ -11,9 +11,6 @@
     --forte-padrao: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
 }
 
-
-
-
 body { 
     background-color: blanchedalmond;
 }
@@ -172,9 +169,14 @@ footer p {
 
     * { padding: 0px;
         margin: 0px }
+
     header { 
         height: 350px;
         margin: 0px
+    }
+
+    .conteudo{ 
+        border-radius: 0px;
     }
 
     .video { 
@@ -190,4 +192,18 @@ footer p {
         text-align: center;
     }
 
+}
+
+@media(max-width: 450px){
+
+    .video { 
+        width: 400px;
+        height: 300px;
+    }
+
+    iframe { 
+        width: 300px;
+        height: 200px;
+        margin: 50px 0px 50px 30px;
+    }
 }
