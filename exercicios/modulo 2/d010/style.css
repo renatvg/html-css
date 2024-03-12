@@ -135,7 +135,7 @@ iframe {
 aside { 
     background-color: #40bb92;
     margin-left: 30px;
-    margin-right: 30px;
+    margin-right: 20px;
     border-radius: 15px;
 }
 
@@ -165,13 +165,13 @@ footer p {
     font-size: 1.5em;
 }
 
-@media(max-width: 1000px){ 
+@media(max-width: 1025px){ 
 
     * { padding: 0px;
         margin: 0px }
 
     header { 
-        height: 350px;
+        height: 220px;
         margin: 0px
     }
 
@@ -180,12 +180,12 @@ footer p {
     }
 
     .video { 
-        width: 400px;
+        width: 900px;
     }
 
     iframe { 
-        width: 400px;
-        margin: 50px 0px 50px 0px;
+        width: 800px;
+        margin: 50px 0px 50px 45px;
     }
 
     .conteudo h1 { 
@@ -196,14 +196,49 @@ footer p {
 
 @media(max-width: 450px){
 
+    header h1 {
+        padding: 20px; 
+        text-align: center;
+        font-size: 2em;
+        font-family: var(--forte-padrao);
+    
+    }
+     header{ 
+        height: 340px;
+     }
     .video { 
-        width: 400px;
+        width: 300px;
         height: 300px;
     }
 
     iframe { 
         width: 300px;
         height: 200px;
-        margin: 50px 0px 50px 30px;
+        margin: 50px 0px 50px 0px;
+    }
+}
+
+    img{ 
+        width: 200px;
+    }
+
+@media(max-width: 350px){ 
+    header{ 
+        height: 500px;
+    }
+
+    source{  
+        width: 100px;
+    }
+    .video{ 
+        width: 300px;
+    }
+
+    iframe{ 
+        width: 200px; 
+    }
+
+    img{ 
+        width: 200px;
     }
 }
