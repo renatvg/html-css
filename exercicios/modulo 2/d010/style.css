@@ -193,6 +193,21 @@ footer p {
     }
 
 }
+@media(max-width: 800px){ 
+    header{ 
+        height: 250px;
+     }
+
+    .video { 
+        width: 600px;
+        height: 400px;
+    }
+    
+    iframe{ 
+        width: 500px;
+        height: 300px;
+    }
+}
 
 @media(max-width: 450px){
 
