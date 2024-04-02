@@ -1,0 +1,40 @@
+@charset "UTF-8"; 
+
+* { 
+    padding: 0px;
+    margin: 0px;
+}
+
+a { 
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover { 
+    opacity: 0.7;
+}
+
+.logo { 
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 8vh;
+    background-image: -moz-linear-gradient(red, white);
+}
+
+.navlist {
+    list-style: none;
+    display: flex
+}
+
+.navlist li { 
+    margin-left: 25px;
+}
