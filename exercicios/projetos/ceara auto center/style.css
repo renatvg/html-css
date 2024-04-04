@@ -39,8 +39,20 @@ nav {
     margin-left: 25px;
 }
 
+.trocadeoleo { 
+    height: 60vh;
+    background-image: url(imgs/mecanico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
-
+h1{ 
+    display: inline-block;
+    background-color: brown;
+    height: 100vg; 
+}
+ 
 @media (max-width: 999px){ 
     nav { 
         height: 10vh;
