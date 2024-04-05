@@ -42,21 +42,61 @@ nav {
 .trocadeoleo { 
     height: 60vh;
     background-image: url(imgs/mecanico.jpg);
-    background-repeat: no-repeat;
     background-size: cover;
-    
 }
 
-h1{ 
-    display: inline-block;
-    background-color: brown;
-    height: 100vg; 
+.servicos { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 25px;
 }
- 
-@media (max-width: 999px){ 
-    nav { 
-        height: 10vh;
-    }
 
-
+.conteudo { 
+    width: 1000px;
+    margin: auto;
 }
+
+.container { 
+    display: flex;
+    justify-content: center;
+}
+
+.box { 
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 340px;
+    height: 500px;
+    background-color: rgb(44, 44, 44);
+    border: 1px solid white; 
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
+}
+
+img{ 
+    width: 300px;
+    height: 200px;
+    padding-left: 10px;
+    padding-top: 10px;
+} 
+
+.box h1 { 
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.box p { 
+    padding-top: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+footer{ 
+    margin-top: 10px;
+    background-color: grey;
+    text-align: center;
+}
+
