@@ -27,7 +27,6 @@ nav {
     align-items: center ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 8vh;
-    background-image: -moz-linear-gradient(red, white);
 }
 
 .navlist {
@@ -41,8 +40,9 @@ nav {
 
 .trocadeoleo { 
     height: 60vh;
-    background-image: url(imgs/mecanico.jpg);
+    background-image: url(imgs/logo.jpg);
     background-size: cover;
+    background-position: center ;
 }
 
 .servicos { 
@@ -90,8 +90,12 @@ img{
     padding-top: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
+}
+
+.feedbacks { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer{ 
