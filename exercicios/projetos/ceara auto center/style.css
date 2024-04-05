@@ -61,18 +61,22 @@ nav {
     justify-content: center;
 }
 
+.servicos { 
+    margin-top: 50px;
+}
+
 .box { 
-    margin-top: 0px;
+    margin-top: 30px;
     margin-bottom: 10px;
     width: 340px;
     height: 500px;
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(26, 26, 26);
     border: 1px solid white; 
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
 }
 
-img{ 
-    width: 300px;
+.box img{ 
+    width: 310px;
     height: 200px;
     padding-left: 10px;
     padding-top: 10px;
@@ -96,11 +100,52 @@ img{
 
 .feedbacks { 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
-footer{ 
-    margin-top: 10px;
-    background-color: grey;
+.feedbacks p { 
+    margin-bottom: 10px ;;
+}
+
+.maps h1 {
+    margin-bottom: 30px;
+    color: black;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
+footer{ 
+    height: 300px;
+    margin-top: 10px;
+    color: aliceblue;
+    background-color: rgb(26, 26, 26);
+    text-align: center;
+}
+
+footer p { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer a:visited { 
+    text-decoration: none;
+    color: white;
+}
+
+.final { 
+    display: flex;
+    justify-content: space-around;
+}
+
+.final li { 
+    font-size: 1.5em;
+    list-style: none;
+}
+.minilogo { 
+    width: 20px;
+}
+.minilogo1 { 
+    width: 30px;
+}
