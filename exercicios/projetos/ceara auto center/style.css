@@ -39,10 +39,23 @@ nav {
 }
 
 .trocadeoleo { 
-    height: 60vh;
-    background-image: url(imgs/logo.jpg);
+    height: 80vh;
+    background-image: url(imgs/trocadeoleo.jpg);
     background-size: cover;
     background-position: center ;
+}
+
+.trocadeoleo h1 { 
+    position: relative;
+    left: 5vw;
+    top: 56vh;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.trocadeoleo img { 
+    position: relative;
+    top: 60vh;
 }
 
 .servicos { 
@@ -52,7 +65,7 @@ nav {
 }
 
 .conteudo { 
-    width: 1000px;
+    width: 800px;
     margin: auto;
 }
 
@@ -68,17 +81,18 @@ nav {
 .box { 
     margin-top: 30px;
     margin-bottom: 10px;
-    width: 340px;
+    width: 300px;
     height: 500px;
     background-color: rgb(26, 26, 26);
     border: 1px solid white; 
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.37);
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.37);
 }
 
 .box img{ 
-    width: 310px;
+    width: 280px;
     height: 200px;
-    padding-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     padding-top: 10px;
 } 
 
@@ -91,7 +105,7 @@ nav {
 }
 
 .box p { 
-    padding-top: 40px;
+    padding-top: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: aliceblue;
     font-size: 1.1em;
