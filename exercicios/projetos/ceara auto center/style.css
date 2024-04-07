@@ -1,5 +1,8 @@
 @charset "UTF-8"; 
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap'); 
+
+
 * { 
     padding: 0px;
     margin: 0px;
@@ -46,11 +49,12 @@ nav {
 }
 
 .trocadeoleo h1 { 
+    width: 400px;
     position: relative;
-    left: 5vw;
+    left: 3vw;
     top: 56vh;
     color: aliceblue;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Roboto Slab", serif;
 }
 
 .trocadeoleo img { 
@@ -62,6 +66,7 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     margin: 25px;
+    margin-top: 50px;
 }
 
 .conteudo { 
@@ -74,14 +79,10 @@ nav {
     justify-content: center;
 }
 
-.servicos { 
-    margin-top: 50px;
-}
-
 .box { 
     margin-top: 30px;
     margin-bottom: 10px;
-    width: 300px;
+    width: 300pxpx;
     height: 500px;
     background-color: rgb(26, 26, 26);
     border: 1px solid white; 
@@ -132,7 +133,6 @@ nav {
 }
 
 footer{ 
-    height: 300px;
     margin-top: 10px;
     color: aliceblue;
     background-color: rgb(26, 26, 26);
@@ -148,6 +148,7 @@ footer a:visited {
     color: white;
 }
 
+
 .final { 
     display: flex;
     justify-content: space-around;
@@ -157,6 +158,21 @@ footer a:visited {
     font-size: 1.5em;
     list-style: none;
 }
+
+#funcionamento {
+    margin-bottom: 100px;
+ }
+    
+#funcionamento ul{ 
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#funcionamento li{ 
+    font-size: 1.2em; 
+}
+
+
 .minilogo { 
     width: 20px;
 }
