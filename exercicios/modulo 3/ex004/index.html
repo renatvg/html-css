@@ -8,10 +8,21 @@
 <body>
     <h1>Meu primeiro Formulário</h1>
     <form autocomplete="off" method="post"> <!--GET os dados ficam na URL, POST n aparece-->
-        <p><label for="inome">Nome: </label><input type="text" name="inome" id="inome"></p>
-        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="Sobrenome" id="isobrenome" required> </p>
-        <p><input type="submit" value="ENVIAR"></p>
+        <p> <label for="inome">Nome: </label>
+            <input type="text" name="inome" id="inome" required minlength="2" maxlength="50">
+        </p>
+
+        <p> <label for="isenha">Senha:</label> 
+            <input type="password" name="Senha" id="isenha" required minlength="8" maxlength="16" > </p>
+
+        <p> <input type="submit" value="ENVIAR"> </p>
+
+        <p> <label for="iteste"></label>
+            <input type="password" name="senhaa" id="iteste" placeholder="Senha">   
+        </p>
+
     </form>
+
 
 
 </body>
